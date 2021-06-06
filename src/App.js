@@ -7,13 +7,14 @@ import { Button, Avatar, makeStyles, Modal, Input } from "@material-ui/core";
 import FlipMove from "react-flip-move";
 import InstagramEmbed from 'react-instagram-embed';
 
-
+ 
 
 function getModalStyle() {
   const top = 50;
   const left = 50;
 
   return {
+    
     height: "300px",
     top: `${top}%`,
     left: `${left}%`,
